@@ -54,7 +54,7 @@ That said, if you are familiar with running Jupyter notebooks locally, you're we
 ### The Machine Learning House
 
 <p align="center">
-  <img src="https://github.com/rahiakela/mathematics-for-machine-learning/tree/main/machine-learning-foundations/images/ML-house.png" width="500" align="center">
+  <img src="https://github.com/rahiakela/mathematics-for-machine-learning/blob/main/machine-learning-foundations/images/ML-house.png" width="500" align="center">
 </p>
 
 To be an outstanding data scientist or ML engineer, it doesn't suffice to only know how to use ML algorithms via the abstract interfaces that the most popular libraries (e.g., scikit-learn, Keras) provide. To train innovative models or deploy them to run performantly in production, an in-depth appreciation of machine learning theory (pictured as the central, purple floor of the "Machine Learning House") may be helpful or essential. And, to cultivate such in-depth appreciation of ML, one must possess a working understanding of the foundational subjects.
@@ -96,5 +96,5 @@ As with other materials created by Jon Krohn (such as the book *[Deep Learning I
 Finally, here's an illustration of Oboe, the *Machine Learning Foundations* mascot, created by the wonderful artist [Aglaé Bassens](https://www.aglaebassens.com): 
 
 <p align="center">
-  <img src="https://github.com/rahiakela/mathematics-for-machine-learning/tree/main/machine-learning-foundations/images/Oboe.jpg" width="400" align="center">
+  <img src="https://github.com/rahiakela/mathematics-for-machine-learning/blob/main/machine-learning-foundations/images/Oboe.jpg" width="400" align="center">
 </p>
