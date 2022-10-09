@@ -63,7 +63,7 @@ The syllabus follows exactly the [Deep Learning Book](http://www.deeplearningboo
 
     In this chapter we will continue to study systems of linear equations. We will see that such systems can't have more than one solution and less than an infinite number of solutions. We will see the intuition, the graphical representation and the proof behind this statement. Then we will go back to the matrix form of the system and consider what Gilbert Strang calls the *row figure* (we are looking at the rows, that is to say multiple equations) and the *column figure* (looking at the columns, that is to say the linear combination of the coefficients). We will also see what is linear combination. Finally, we will see examples of overdetermined and underdetermined systems of equations.
 
-5. [Norms](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.5-Norms/)
+5. [Norms](https://github.com/rahiakela/mathematics-for-machine-learning/blob/main/deep-learning-book-maths/2_5_norms.ipynb)
 
     <img src="images/squared-L2-norm1.png" width="400" alt="Representation of the squared L2 norm in 3 dimensions" title="Representation of the squared L2 norm in 3 dimensions">
 
@@ -71,33 +71,33 @@ The syllabus follows exactly the [Deep Learning Book](http://www.deeplearningboo
 
     The norm of a vector is a function that takes a vector in input and outputs a positive value. It can be thought of as the *length* of the vector. It is for example used to evaluate the distance between the prediction of a model and the actual value. We will see different kinds of norms ($L^0$, $L^1$, $L^2$...) with examples.
 
-6. [Special Kinds of Matrices and Vectors](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.6-Special-Kinds-of-Matrices-and-Vectors/)
+6. [Special Kinds of Matrices and Vectors](https://github.com/rahiakela/mathematics-for-machine-learning/blob/main/deep-learning-book-maths/2_6_special_kinds_of_matrices_and_vectors.ipynb)
 
     <img src="images/diagonal-and-symmetric-matrices.png" width="400" alt="Example of a diagonal matrix and of a symmetric matrix" title="Example of a diagonal matrix and of a symmetric matrix">
 
     **A diagonal (left) and a symmetric matrix (right)**
 
-    We have seen in [2.3](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.3-Identity-and-Inverse-Matrices/) some special matrices that are very interesting. We will see other types of vectors and matrices in this chapter. It is not a big chapter but it is important to understand the next ones.
+    We have seen in [2.3](https://github.com/rahiakela/deep-learning-book-maths/blob/main/2.3-identity-and-inverse-matrices.ipynb) some special matrices that are very interesting. We will see other types of vectors and matrices in this chapter. It is not a big chapter but it is important to understand the next ones.
 
-7. [Eigendecomposition](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.7-Eigendecomposition/)
+7. [Eigendecomposition](https://github.com/rahiakela/mathematics-for-machine-learning/blob/main/deep-learning-book-maths/2_7_eigen_decomposition.ipynb)
 
     <img src="images/unit-circle-eigenvectors.png" width="300" alt="output_59_0">
 
     We will see some major concepts of linear algebra in this chapter. We will start by getting some ideas on eigenvectors and eigenvalues. We will see that a matrix can be seen as a linear transformation and that applying a matrix on its eigenvectors gives new vectors with same direction. Then we will see how to express quadratic equations in a matrix form. We will see that the eigendecomposition of the matrix corresponding to the quadratic equation can be used to find its minimum and maximum. As a bonus, we will also see how to visualize linear transformation in Python!
 
-8. [Singular Value Decomposition](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.8-Singular-Value-Decomposition/)
+8. [Singular Value Decomposition](https://github.com/rahiakela/mathematics-for-machine-learning/blob/main/deep-learning-book-maths/2_8_singular_value_decomposition.ipynb)
 
     <img src="images/unit-circle-transformed-python.png" width="300" alt="output_35_7">
 
     We will see another way to decompose matrices: the Singular Value Decomposition or SVD. Since the beginning of this series I emphasized the fact that you can see matrices as linear transformation in space. With the SVD, you decompose a matrix in three other matrices. We will see that we look at these new matrices as *sub-transformation* of the space. Instead of doing the transformation in one movement, we decompose it in three movements. As a bonus, we will apply the SVD to image processing. We will see the effect of SVD on an example image of Lucy the goose. So keep on reading!
 
-9. [The Moore-Penrose Pseudoinverse](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.9-The-Moore-Penrose-Pseudoinverse/)
+9. [The Moore-Penrose Pseudoinverse](https://github.com/rahiakela/mathematics-for-machine-learning/blob/main/deep-learning-book-maths/2_9_moore_penrose_pseudoinverse.ipynb)
 
     <img src="images/overdetermined-system-equations.png" width="300" alt="output_44_0">
 
     We saw that not all matrices have an inverse. It is unfortunate because the inverse is used to solve system of equations. In some cases, a system of equations has no solution, and thus the inverse doesn’t exist. However it can be useful to find a value that is almost a solution (in terms of minimizing the error). This can be done with the pseudoinverse! We will see for instance how we can find the best-fit line of a set of data points with the pseudoinverse.
 
-10. [The Trace Operator](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.10-The-Trace-Operator/)
+10. [The Trace Operator](https://github.com/rahiakela/mathematics-for-machine-learning/blob/main/deep-learning-book-maths/2_10_trace_of_matrix.ipynb)
 
     <img src="images/trace-matrix.png" width="200" alt="Calculating the trace of a matrix" title="Calculating the trace of a matrix">
 
@@ -105,7 +105,7 @@ The syllabus follows exactly the [Deep Learning Book](http://www.deeplearningboo
 
     We will see what is the Trace of a matrix. It will be needed for the last chapter on the Principal Component Analysis (PCA).
 
-11. [The Determinant](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.11-The-determinant/)
+11. [The Determinant](https://github.com/rahiakela/mathematics-for-machine-learning/blob/main/deep-learning-book-maths/2_11_determinant.ipynb)
 
     <img src="images/positive-negative-determinant.png" width="400" alt="Comparison of positive and negative determinant" title="Comparison of the effect of positive and negative determinants">
 
@@ -113,7 +113,7 @@ The syllabus follows exactly the [Deep Learning Book](http://www.deeplearningboo
 
     This chapter is about the determinant of a matrix. This special number can tell us a lot of things about our matrix!
 
-12. [Example: Principal Components Analysis](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.12-Example-Principal-Components-Analysis/)
+12. [Example: Principal Components Analysis](https://github.com/rahiakela/mathematics-for-machine-learning/blob/main/deep-learning-book-maths/2_12_principal_components_analysis.ipynb)
 
     <img src="images/gradient-descent.png" width="400" alt="Mechanism of the gradient descent algorithm" title="Mechanism of the gradient descent algorithm">
     **Gradient descent**
